@@ -7,7 +7,6 @@ var FrontPage = require('./components/front_page.jsx');
 var Graphs = require('./components/graphs.jsx');
 var Message = require('./components/message.jsx');
 var TextMood = require('./components/textmood.jsx');
-var MoodRing;
 var TwitterMood = require('./components/twittermood.jsx');
 var MoodRing = require('./components/mood_ring.jsx');
 
