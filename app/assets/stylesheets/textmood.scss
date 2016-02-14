@@ -37,7 +37,9 @@
 .slider-bar {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to right, red, yellow, #66FF00);
+  border: 1px solid #444444;
+  border-radius: 30px;
+  background: linear-gradient(to right, #dd3434, #bfd222, #2fe14e);
 }
 .pointer {
   height: 100%;
@@ -45,7 +47,7 @@
   transition: all 2s;
   background: black;
   position: relative;
-  bottom: 50px;
+  bottom: 51px;
 }
 
 .mood-sentence {
