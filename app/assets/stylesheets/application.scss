@@ -16,13 +16,16 @@
  body {
    background: #F7F7F7;
    margin: 0;
-   padding: 0;
+   padding-top: 40px;
    font-family: sans-serif;
  }
 
  #video-container {
+   position: absolute;
+   top: 10%;
+   left: 30%;
    margin: 2em auto 0;
-   width: 500px;
+   width: 555px;
    padding: 2em;
    background: white;
    -webkit-box-shadow: 0 1px 10px #D9D9D9;
@@ -46,24 +49,29 @@
    text-align: center;
    height: 40px;
 
-   .navbar-container{
+
+   .navbar-container {
      width: 900px;
      margin: auto;
    }
 
    .navbar-tab {
-     padding: 5px 20px;
+     padding: 11px 20px;
      cursor: pointer;
      border-left: 1px solid black;
    }
 
-   .active {
-      border-bottom: 1px solid white;
-   }
-
-   .twitter{
+   .last {
      border-right: 1px solid black;
    }
+ //
+ //   .active {
+ //      border-bottom: 1px solid white;
+ //   }
+ //
+ //   .twitter{
+ //     border-right: 1px solid black;
+ //   }
  }
 
 .emotion-text {
@@ -71,9 +79,20 @@
 }
 
 .mood-ring {
-  // width: 100%;
-  // height: 100%;
-  // // position: absolute;
+  width: 100%;
+  height: 100%;
+  position: absolute;
   transition: all 3s;
   z-index: -1000;
+}
+
+.opacity-wrapper {
+  width: 70%;
+  height: 90%;
+  opacity: 0.9;
+  background-color: white;
+  position: absolute;
+  z-index: -999;
+  left: 15%;
+  right: 15%;
 }
